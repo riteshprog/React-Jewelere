@@ -1,0 +1,298 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar{
+  margin: 0 12.5rem;
+  box-shadow: none !important;
+}
+.nav-center{
+  margin: 0 5rem;
+  width:100% !important;
+
+}
+
+.navbar.navbar-dark .navbar-toggler-icon{
+  background-color: #1F1D1E;
+}
+.text-smallcaps{
+  text-transform: uppercase;
+  font-size: 1rem !important;
+  font-weight: 700;
+}
+
+.nav-item a{
+  color: #EAEAEA !important;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.text-light{
+  font-weight: 300 !important;
+}
+
+.nav-item.active a, .navbar-brand.active{
+  color: #1F1D1E !important;
+  font-weight: 500;
+}
+
+.nav-item a i{
+  color: black;
+  font-size: 1.5rem;
+}
+
+.short-icon{
+  display: flex;
+}
+
+.short-icon i{
+  padding: 1rem;
+  font-size: large;
+}
+
+.inquiry-list{
+  display:flex;
+  margin:1rem 0; 
+  justify-content: space-between;
+  vertical-align: middle;
+  align-items: flex-start;
+}
+.inquiry-list p{
+  color: #EAEAEA;
+  font-size: 1rem !important;
+}
+
+.inquiry-list i{
+  margin-right:.8rem
+}
+
+.rounded-border{
+  border-radius: 25px;
+  background: black;
+ }
+
+.social-list-bottom p{
+color: #EAEAEA;
+padding: 1rem 0;
+font-size:1rem !important;
+font-weight: 400; 
+ }
+
+ .social-list-bottom i{
+   padding:.5rem .5rem;
+   font-size: 1rem !important;
+   width:35px;
+   color:#A2A2A2 !important;
+   height: 35px;
+   border-radius: 50%;
+   background-color: #F1F1F1;
+ }
+ .card-image-block{
+   display: flex;
+ }
+
+ .carusal-card h1{
+   padding-top:2rem;
+   color:#EAEAEA;
+   transform: translate(0%, -180%);
+    font-size:4rem;
+    font-weight: 700;
+    letter-spacing: .5rem;
+    z-index: 08;
+ }
+
+ .carusal-card h2{
+  transform: translate(0%, -60%);
+  font-size:2rem;
+  font-weight: 700 !important;
+  letter-spacing: 0.08rem;
+
+ }
+
+
+ .carusal-card h3{
+  font-size:1.5rem;
+  font-weight: 700;
+  color:black;
+  letter-spacing: 0.05rem;
+  transform: translate(0%, -58%);
+  
+ }
+
+ .carusal-card h3{
+   width:100px;
+   display: inline-block;
+   text-align: center;
+  border-top:2px solid gray;
+
+
+ }
+
+ .carusal-card .card-text{
+   font-size:1rem !important;
+   letter-spacing: .08rem;
+ }
+
+ .card {
+  font-weight: 400;
+  border: 0;
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,0.16), 0 0px 0px 0 rgba(0,0,0,0.12) !important;
+}
+
+ .card-image-block img{
+   z-index:1;
+ }
+
+ .img-left{
+   display: block !important;
+
+   transform: translate(-145px, 100px);
+ }
+ .img-right{
+  display: block !important;
+   transform: translate(140px, 100px);
+}
+
+
+.fa-facebook-f:before, .fa-angle-down:before, .fa-instagram:before, .fa-twitter:before {
+  font-size: 1.3rem;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .navbar{
+    margin: 0 0rem;
+    box-shadow: none !important;
+  }
+  .nav-center{
+    margin: 0 0rem;
+    width:100% !important;
+  
+  }
+  .carusal-card h1{
+    padding-top:0rem;
+    transform: translate(0%, 15%);
+     font-size:2rem;
+     letter-spacing: .2rem;
+     z-index: 9999;
+  }
+  
+  .carusal-card h2{
+   transform: translate(0%, 15%);
+   font-size:1.5rem;
+   letter-spacing: 0.08rem;
+  
+  }
+  
+  
+  .carusal-card h3{
+   font-size:1.3rem;
+   letter-spacing: 0.05rem;
+   transform: translate(0%, 13%);
+   
+  }
+
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .navbar{
+    margin: 0 2rem;
+    box-shadow: none !important;
+  }
+  .nav-center{
+    margin: 0 2rem;
+    width:100% !important;
+  
+  }
+  .carusal-card h1{
+    padding-top:2rem;
+    color:#EAEAEA;
+    transform: translate(0%, -130%);
+     font-size:2rem;
+     font-weight: 700;
+     letter-spacing: .5rem;
+     z-index: 08;
+  }
+ 
+  .carusal-card h2{
+   transform: translate(0%, -60%);
+   font-size:2rem;
+   font-weight: 700 !important;
+   letter-spacing: 0.08rem;
+ 
+  }
+ 
+ 
+  .carusal-card h3{
+   font-size:1.5rem;
+   font-weight: 700;
+   color:black;
+   letter-spacing: 0.05rem;
+   transform: translate(0%, -58%);
+   
+  }
+ 
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .navbar{
+    margin: 0 2rem;
+    box-shadow: none !important;
+  }
+  .nav-center{
+    margin: 0 2rem;
+    width:100% !important;
+  
+  }
+  .carusal-card h1{
+    padding-top:2rem;
+    color:#EAEAEA;
+    transform: translate(0%, -150%);
+     font-size:2rem;
+     font-weight: 700;
+     letter-spacing: .5rem;
+     z-index: 08;
+  }
+ 
+  .carusal-card h2{
+   transform: translate(0%, -60%);
+   font-size:2rem;
+   font-weight: 700 !important;
+   letter-spacing: 0.08rem;
+ 
+  }
+ 
+ 
+  .carusal-card h3{
+   font-size:1.5rem;
+   font-weight: 700;
+   color:black;
+   letter-spacing: 0.05rem;
+   transform: translate(0%, -58%);
+   
+  }
+ 
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .navbar{
+    margin: 0 4rem;
+    box-shadow: none !important;
+  }
+  .nav-center{
+    margin: 0 4rem;
+    width:100% !important;
+  
+  } 
+}
